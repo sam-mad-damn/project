@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" ></script>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>lkjhgfkjhgfds</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facere, iure ducimus, doloribus nisi sequi obcaecati perferendis ipsam iste maiores a excepturi delectus dolore ratione atque aliquam? Assumenda, aliquam tempore.</p>
+    <div class="container">
+        <button class="btn-modal">Загрузить модальное окно</button>
+    </div>
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <form action="#" id="modalForm">
+                <h3 class="modal__title">Мы свяжемся с вами!</h3>
+                <input type="text" class="modal__input" id="name" required autocomplete="off" placeholder="name">
+                <input type="phone" class="modal__input" id="phone" required autocomplete="off"
+                    placeholder="Тел.: +7 (912)-586-65 45">
+                <button class="modal__btn">Перезвонить нам</button>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
