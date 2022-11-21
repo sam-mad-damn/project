@@ -19,17 +19,17 @@ body {
     padding-right: 15px;
     border: 0;
     border-radius: 5px;
-    background-color: rgb(122, 64, 181);
-    box-shadow: 3px 0px 2px 3px rgba(26, 3, 49, 0.645);
-    color: whitesmoke;
+    background-color: rgb(187, 101, 151);
+    box-shadow: 3px 0px 2px 3px rgba(138, 104, 179, 0.112);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 
 .btn-modal:hover {
-    background-color: rgb(228, 208, 249);
-    color: black;
+    background-color: rgb(92, 87, 97);
+    color: rgb(10, 1, 1);
 }
 
 /* модальное окно */
@@ -41,7 +41,7 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-color: rgba(132, 123, 123, 0.416);
+    background-color: rgba(192, 30, 30, 0.416);
     z-index: 10;
 }
 
@@ -50,8 +50,8 @@ body {
     width: 250px;
     padding: 30px;
     margin: 50px auto;
-    background-color: whitesmoke;
-    border: 1px solid rgba(123, 64, 181, 0.762);
+    background-color: rgb(232, 121, 217);
+    border: 1px solid rgba(226, 46, 46, 0.372);
     border-radius: 5px;
     animation: modal_animation 2s;
 }
@@ -90,9 +90,9 @@ body {
 
 .modal__btn {
     padding: 10px 5px;
-    background-color: rgb(122, 64, 181);
-    box-shadow: 2px 2px 1px 2px rgba(167, 131, 203, 0.645);
-    color: whitesmoke;
+    background-color: rgb(219, 59, 104);
+    box-shadow: 2px 2px 1px 2px rgba(240, 57, 106, 0.645);
+    color: rgb(1, 0, 0);
     border-radius: 5px;
     border: 0;
     cursor: pointer;
